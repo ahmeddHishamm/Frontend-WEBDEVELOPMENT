@@ -1,0 +1,66 @@
+.NavbarItems {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: dimgrey;
+    opacity: 80% ;
+    color: azure;
+    position: fixed;
+    width: 100%;
+}
+.navbar-logo {
+    padding-left: 30px;
+    color: Azure;
+    font-size: 2rem;
+    cursor: pointer;
+
+
+}
+.nav-links-mobile{
+    display: none;
+}
+
+.nav-menu{
+    display: flex;
+    grid-template-columns:repeat(8,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links{
+
+    text-decoration: none;
+    color: azure;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+}
+.nav-links i{
+    padding-right: 10px;
+}
+
+.nav-links:hover{
+    background-color: #282c34 ;
+    color: azure;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+button{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #282c34;
+    color: azure;
+}

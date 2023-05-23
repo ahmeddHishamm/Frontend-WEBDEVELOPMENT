@@ -1,0 +1,12 @@
+.crud-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.crud-form {
+    padding: 20px;
+}
+
+.crud-form label {
+    margin-right: 10px;
+}
